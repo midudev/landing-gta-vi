@@ -1,9 +1,11 @@
+---
 name: Error
 description: Error en el proyecto
 title: "Error: "
 labels: ["error"]
 assignees:
   - midudev
+---
 body:
   - type: markdown
     attributes:
