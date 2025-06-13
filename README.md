@@ -112,7 +112,7 @@ Aquí tienes una guía rápida:
 6. Haz Push a la Rama (`git push origin feature/CaracteristicaIncreible`)
 7. Abre una [_pull request_](https://github.com/midudev/landing-gta-vi/pulls)
 
-Por favor, consulta nuestra [guía de contribución](https://github.com/midudev/landing-gta-vi/blob/master/CONTRIBUTING.md) para saber cómo puedes empezar de la mejor manera y siguiendo [buenas prácticas](https://github.com/midudev/landing-gta-vi/blob/main/CONTRIBUTING.md#buenas-prácticas-).
+Por favor, consulta nuestra [guía de contribución](https://github.com/midudev/landing-gta-vi/blob/master/fork.md) para saber cómo puedes empezar de la mejor manera y siguiendo [buenas prácticas](https://github.com/midudev/landing-gta-vi/blob/main/fork.md#buenas-prácticas-).
 
 ### Contribuir desde Stackblitz
 
