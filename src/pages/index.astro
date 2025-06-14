@@ -16,11 +16,13 @@ import LogoCutted from "@/assets/logo-cutted.svg"
         class="h-screen scale-125 block overflow-hidden fixed"
       >
         <img
+          alt="GTA 6 Logo"
           id="hero-key-logo"
           src={HeroKeyLogo.src}
           class="absolute w-full h-full object-cover"
         />
         <img
+          alt="Two armed characters standing on a dock with a Miami-like cityscape behind them, promoting GTA 6."
           id="hero-key-background"
           src={HeroKeyBackground.src}
           class="w-full h-full object-cover"
@@ -38,7 +40,10 @@ import LogoCutted from "@/assets/logo-cutted.svg"
       />
     </header>
 
-    <button class="absolute inset-0 m-auto cursor-pointer inline-block">
+    <button
+      aria-label="Play Trailer"
+      class="absolute inset-0 m-auto cursor-pointer inline-block"
+    >
       <PlayButtonIcon
         id="hero-play-button"
         class="text-white m-auto size-32 mt-10 backdrop-blur-3xl rounded-full hover:scale-110 transition-transform duration-500"
