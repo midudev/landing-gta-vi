@@ -6,6 +6,7 @@ import HeroKeyBackground from "@/assets/hero-key-background.webp"
 import LogoVI from "@/assets/logo-vi.svg"
 import PlayButtonIcon from "@/assets/play-button.svg"
 import LogoCutted from "@/assets/logo-cutted.svg"
+import MenuBurgerIcon from '@/assets/menu_icon.svg'
 ---
 
 <Layout>
@@ -32,10 +33,11 @@ import LogoCutted from "@/assets/logo-cutted.svg"
   <div
     class="fixed flex flex-col items-center justify-between h-screen px-20 py-16 w-full"
   >
-    <header class="flex justify-between w-full">
+    <header class="flex justify-between w-full [&>*]text-white [&>*]hover:text-yellow-100 [&>*]transition-colors [&>*]duration-500 [&>*]cursor-pointer">
       <LogoVI
-        class="size-11 text-white hover:text-yellow-100 transition-colors duration-500 cursor-pointer"
+        class="size-11"
       />
+      <MenuBurgerIcon class="size-10"/>
     </header>
 
     <button class="absolute inset-0 m-auto cursor-pointer inline-block">
